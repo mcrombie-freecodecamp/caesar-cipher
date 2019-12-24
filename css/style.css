@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-size:62.5%;
+    font-family: Times, Georgia, serif;
+    color:#f7f1e3;
+}
+
+#main-content{
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.87),#65272c);
+    background-size:cover;
+    background-position:center;
+    margin-top:10vh;
+    height:90vh;
+    /* url("../images/willian-west-355103-unsplash.jpg") */
+}
+
+#title{
+    font-size:4rem;
+    padding:3rem;
+}
+
+#description{
+    font-size: 1.7rem;
+    margin: 0 25rem 2rem 25rem;
+    text-align: justify;
+}
+
+#caesar-bust{
+    width:15rem;
+    height:auto;
+    border-radius: 30%;
+}
+
+#input-container{
+    font-size:2rem;
+    padding:1rem;
+}
+
+#instruction{
+    margin-bottom: 1rem;
+}
+
+#output-container{
+    margin-top: 4rem;
+    font-size: 3rem;
+    padding:0rem;
+}
+
+#credit-badge{
+    position:absolute;
+    top:90%;
+    left:90%;
+}
+

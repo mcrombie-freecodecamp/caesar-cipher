@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="../../../css/all-pages.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Caesar's Cipher</title>
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <div class="navigation__back">
+                &nbsp;
+            </div>
+            <a href="../../../../" id="page-title" class="navigation__title">
+                CromBlog
+            </a>
+            <input type="checkbox" class="navigation__checkbox" id="navigation-toggle">
+
+            <label for="navigation-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <div class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="../../../about/" class="navigation__link">About</a></li>
+                    <li class="navigation__item"><a href="../../../blog/" class="navigation__link">Blog</a></li>
+                    <li class="navigation__item"><a href="../../../contact/" class="navigation__link">Contact</a></li>
+                    <li class="navigation__item"><a href="../../../web-development-portfolio/"
+                            class="navigation__link">Web
+                            Development Portfolio</a></li>
+                    <li class="navigation__item"><a href="../../../writing-portfolio/" class="navigation__link">Writing
+                            Portfolio</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main id="main-content">
+        <h1 id="title">Caesar's Cipher</h1>
+        <p id="description">
+            ROT13, which stands for "rotate by 13 places", is a special case of Caesar's cipher. It is a substitution
+            cipher that takes each letter and shifts it 13 places in the alphabet. Julius Caesar was a roman
+            politician/general
+            who used a ROT3 cipher to protect confidential military messages. Due to his fame and early use of this
+            method, the technique has become associated with him.
+        </p>
+        <img id="caesar-bust" src="images/Julius_Caesar_Italian_marble_19th_c..jpg" alt="Bust of young Julius Caesar">
+        <div id="input-container">
+            <div id="instruction">Enter a message to be encoded (takes alphabetic characters only)</div>
+            <input id="text-input" type="text">
+            <button id="submit-button" type="submit">Enter</button>
+        </div>
+        <div id="output-container">
+            <div id="ciphered-display">
+
+            </div>
+        </div>
+
+
+
+    </main>
+</body>
+<script src="js/script.js"></script>
+
+</html>
